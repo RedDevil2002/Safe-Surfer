@@ -14,6 +14,21 @@
 		86569AA329C0065700258C0D /* Safe_SurferTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86569AA229C0065700258C0D /* Safe_SurferTests.swift */; };
 		86569AAD29C0065700258C0D /* Safe_SurferUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86569AAC29C0065700258C0D /* Safe_SurferUITests.swift */; };
 		86569AAF29C0065700258C0D /* Safe_SurferUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86569AAE29C0065700258C0D /* Safe_SurferUITestsLaunchTests.swift */; };
+		86569AC329C0067700258C0D /* DeviceActivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86569AC229C0067700258C0D /* DeviceActivity.framework */; };
+		86569AC629C0067700258C0D /* DeviceActivityMonitorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86569AC529C0067700258C0D /* DeviceActivityMonitorExtension.swift */; };
+		86569ACB29C0067700258C0D /* MyMonitor.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 86569AC029C0067700258C0D /* MyMonitor.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		86569AD129C0069D00258C0D /* MyMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86569AD029C0069D00258C0D /* MyMonitor.swift */; };
+		86569AD229C0069D00258C0D /* MyMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86569AD029C0069D00258C0D /* MyMonitor.swift */; };
+		86569AD329C0069D00258C0D /* MyMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86569AD029C0069D00258C0D /* MyMonitor.swift */; };
+		86569AD429C0069D00258C0D /* MyMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86569AD029C0069D00258C0D /* MyMonitor.swift */; };
+		86569AD629C006AF00258C0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86569AD529C006AF00258C0D /* AppDelegate.swift */; };
+		86569AD729C006AF00258C0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86569AD529C006AF00258C0D /* AppDelegate.swift */; };
+		86569AD829C006AF00258C0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86569AD529C006AF00258C0D /* AppDelegate.swift */; };
+		86569AD929C006AF00258C0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86569AD529C006AF00258C0D /* AppDelegate.swift */; };
+		86569ADB29C006F500258C0D /* MyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86569ADA29C006F500258C0D /* MyModel.swift */; };
+		86569ADC29C006F500258C0D /* MyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86569ADA29C006F500258C0D /* MyModel.swift */; };
+		86569ADD29C006F500258C0D /* MyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86569ADA29C006F500258C0D /* MyModel.swift */; };
+		86569ADE29C006F500258C0D /* MyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86569ADA29C006F500258C0D /* MyModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +46,28 @@
 			remoteGlobalIDString = 86569A8D29C0065600258C0D;
 			remoteInfo = "Safe Surfer";
 		};
+		86569AC929C0067700258C0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86569A8629C0065600258C0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86569ABF29C0067700258C0D;
+			remoteInfo = MyMonitor;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		86569ACF29C0067700258C0D /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				86569ACB29C0067700258C0D /* MyMonitor.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		86569A8E29C0065600258C0D /* Safe Surfer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Safe Surfer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +80,15 @@
 		86569AA829C0065700258C0D /* Safe SurferUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Safe SurferUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86569AAC29C0065700258C0D /* Safe_SurferUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safe_SurferUITests.swift; sourceTree = "<group>"; };
 		86569AAE29C0065700258C0D /* Safe_SurferUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safe_SurferUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		86569ABB29C0066100258C0D /* Safe Surfer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Safe Surfer.entitlements"; sourceTree = "<group>"; };
+		86569AC029C0067700258C0D /* MyMonitor.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyMonitor.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		86569AC229C0067700258C0D /* DeviceActivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DeviceActivity.framework; path = System/Library/Frameworks/DeviceActivity.framework; sourceTree = SDKROOT; };
+		86569AC529C0067700258C0D /* DeviceActivityMonitorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceActivityMonitorExtension.swift; sourceTree = "<group>"; };
+		86569AC729C0067700258C0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86569AC829C0067700258C0D /* MyMonitor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyMonitor.entitlements; sourceTree = "<group>"; };
+		86569AD029C0069D00258C0D /* MyMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMonitor.swift; sourceTree = "<group>"; };
+		86569AD529C006AF00258C0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86569ADA29C006F500258C0D /* MyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +113,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		86569ABD29C0067700258C0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86569AC329C0067700258C0D /* DeviceActivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -77,6 +130,8 @@
 				86569A9029C0065600258C0D /* Safe Surfer */,
 				86569AA129C0065700258C0D /* Safe SurferTests */,
 				86569AAB29C0065700258C0D /* Safe SurferUITests */,
+				86569AC429C0067700258C0D /* MyMonitor */,
+				86569AC129C0067700258C0D /* Frameworks */,
 				86569A8F29C0065600258C0D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,6 +142,7 @@
 				86569A8E29C0065600258C0D /* Safe Surfer.app */,
 				86569A9E29C0065700258C0D /* Safe SurferTests.xctest */,
 				86569AA829C0065700258C0D /* Safe SurferUITests.xctest */,
+				86569AC029C0067700258C0D /* MyMonitor.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,7 +150,10 @@
 		86569A9029C0065600258C0D /* Safe Surfer */ = {
 			isa = PBXGroup;
 			children = (
+				86569ABB29C0066100258C0D /* Safe Surfer.entitlements */,
 				86569A9129C0065600258C0D /* Safe_SurferApp.swift */,
+				86569AD529C006AF00258C0D /* AppDelegate.swift */,
+				86569ADA29C006F500258C0D /* MyModel.swift */,
 				86569A9329C0065600258C0D /* ContentView.swift */,
 				86569A9529C0065700258C0D /* Assets.xcassets */,
 				86569A9729C0065700258C0D /* Preview Content */,
@@ -127,6 +186,25 @@
 			path = "Safe SurferUITests";
 			sourceTree = "<group>";
 		};
+		86569AC129C0067700258C0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86569AC229C0067700258C0D /* DeviceActivity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86569AC429C0067700258C0D /* MyMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				86569AC529C0067700258C0D /* DeviceActivityMonitorExtension.swift */,
+				86569AC729C0067700258C0D /* Info.plist */,
+				86569AC829C0067700258C0D /* MyMonitor.entitlements */,
+				86569AD029C0069D00258C0D /* MyMonitor.swift */,
+			);
+			path = MyMonitor;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,10 +215,12 @@
 				86569A8A29C0065600258C0D /* Sources */,
 				86569A8B29C0065600258C0D /* Frameworks */,
 				86569A8C29C0065600258C0D /* Resources */,
+				86569ACF29C0067700258C0D /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				86569ACA29C0067700258C0D /* PBXTargetDependency */,
 			);
 			name = "Safe Surfer";
 			productName = "Safe Surfer";
@@ -183,6 +263,23 @@
 			productReference = 86569AA829C0065700258C0D /* Safe SurferUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		86569ABF29C0067700258C0D /* MyMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86569ACC29C0067700258C0D /* Build configuration list for PBXNativeTarget "MyMonitor" */;
+			buildPhases = (
+				86569ABC29C0067700258C0D /* Sources */,
+				86569ABD29C0067700258C0D /* Frameworks */,
+				86569ABE29C0067700258C0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyMonitor;
+			productName = MyMonitor;
+			productReference = 86569AC029C0067700258C0D /* MyMonitor.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,6 +301,9 @@
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = 86569A8D29C0065600258C0D;
 					};
+					86569ABF29C0067700258C0D = {
+						CreatedOnToolsVersion = 14.2;
+					};
 				};
 			};
 			buildConfigurationList = 86569A8929C0065600258C0D /* Build configuration list for PBXProject "Safe Surfer" */;
@@ -222,6 +322,7 @@
 				86569A8D29C0065600258C0D /* Safe Surfer */,
 				86569A9D29C0065700258C0D /* Safe SurferTests */,
 				86569AA729C0065700258C0D /* Safe SurferUITests */,
+				86569ABF29C0067700258C0D /* MyMonitor */,
 			);
 		};
 /* End PBXProject section */
@@ -250,6 +351,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		86569ABE29C0067700258C0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -257,7 +365,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86569AD629C006AF00258C0D /* AppDelegate.swift in Sources */,
 				86569A9429C0065600258C0D /* ContentView.swift in Sources */,
+				86569ADB29C006F500258C0D /* MyModel.swift in Sources */,
+				86569AD129C0069D00258C0D /* MyMonitor.swift in Sources */,
 				86569A9229C0065600258C0D /* Safe_SurferApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,7 +377,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86569AD729C006AF00258C0D /* AppDelegate.swift in Sources */,
+				86569AD229C0069D00258C0D /* MyMonitor.swift in Sources */,
 				86569AA329C0065700258C0D /* Safe_SurferTests.swift in Sources */,
+				86569ADC29C006F500258C0D /* MyModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +388,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86569AD829C006AF00258C0D /* AppDelegate.swift in Sources */,
 				86569AAF29C0065700258C0D /* Safe_SurferUITestsLaunchTests.swift in Sources */,
+				86569ADD29C006F500258C0D /* MyModel.swift in Sources */,
+				86569AD329C0069D00258C0D /* MyMonitor.swift in Sources */,
 				86569AAD29C0065700258C0D /* Safe_SurferUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86569ABC29C0067700258C0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86569AD929C006AF00258C0D /* AppDelegate.swift in Sources */,
+				86569AD429C0069D00258C0D /* MyMonitor.swift in Sources */,
+				86569AC629C0067700258C0D /* DeviceActivityMonitorExtension.swift in Sources */,
+				86569ADE29C006F500258C0D /* MyModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +419,11 @@
 			isa = PBXTargetDependency;
 			target = 86569A8D29C0065600258C0D /* Safe Surfer */;
 			targetProxy = 86569AA929C0065700258C0D /* PBXContainerItemProxy */;
+		};
+		86569ACA29C0067700258C0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86569ABF29C0067700258C0D /* MyMonitor */;
+			targetProxy = 86569AC929C0067700258C0D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -345,7 +478,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,7 +532,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -412,8 +545,10 @@
 		86569AB329C0065700258C0D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Safe Surfer/Safe Surfer.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Safe Surfer/Preview Content\"";
@@ -441,8 +576,10 @@
 		86569AB429C0065700258C0D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Safe Surfer/Safe Surfer.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Safe Surfer/Preview Content\"";
@@ -543,6 +680,58 @@
 			};
 			name = Release;
 		};
+		86569ACD29C0067700258C0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MyMonitor/MyMonitor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6K6BFNLSM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyMonitor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MyMonitor;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devil.red.Safe-Surfer.MyMonitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86569ACE29C0067700258C0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MyMonitor/MyMonitor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6K6BFNLSM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyMonitor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MyMonitor;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devil.red.Safe-Surfer.MyMonitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -578,6 +767,15 @@
 			buildConfigurations = (
 				86569AB929C0065700258C0D /* Debug */,
 				86569ABA29C0065700258C0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86569ACC29C0067700258C0D /* Build configuration list for PBXNativeTarget "MyMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86569ACD29C0067700258C0D /* Debug */,
+				86569ACE29C0067700258C0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

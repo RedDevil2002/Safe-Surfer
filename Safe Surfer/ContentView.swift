@@ -6,16 +6,22 @@
 //
 
 import SwiftUI
+import FamilyControls
 
 struct ContentView: View {
+    @StateObject var model = MyModel.shared
+    @State var isPresented = false
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Button("Select Apps to Discourage") {
+                isPresented = true
+            }
+            .familyActivityPicker(isPresented: $isPresented, selection: $model.selectionToDiscourage)
+            Button("Start Monitoring") {
+                model.initiateMonitoring()
+            }
         }
-        .padding()
     }
 }
 
