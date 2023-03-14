@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86569A9229C0065600258C0D /* Safe_SurferApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86569A9129C0065600258C0D /* Safe_SurferApp.swift */; };
+		86569A9429C0065600258C0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86569A9329C0065600258C0D /* ContentView.swift */; };
+		86569A9629C0065700258C0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86569A9529C0065700258C0D /* Assets.xcassets */; };
+		86569A9929C0065700258C0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86569A9829C0065700258C0D /* Preview Assets.xcassets */; };
+		86569AA329C0065700258C0D /* Safe_SurferTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86569AA229C0065700258C0D /* Safe_SurferTests.swift */; };
+		86569AAD29C0065700258C0D /* Safe_SurferUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86569AAC29C0065700258C0D /* Safe_SurferUITests.swift */; };
+		86569AAF29C0065700258C0D /* Safe_SurferUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86569AAE29C0065700258C0D /* Safe_SurferUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86569A9F29C0065700258C0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86569A8629C0065600258C0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86569A8D29C0065600258C0D;
+			remoteInfo = "Safe Surfer";
+		};
+		86569AA929C0065700258C0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86569A8629C0065600258C0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86569A8D29C0065600258C0D;
+			remoteInfo = "Safe Surfer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		86569A8E29C0065600258C0D /* Safe Surfer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Safe Surfer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86569A9129C0065600258C0D /* Safe_SurferApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safe_SurferApp.swift; sourceTree = "<group>"; };
+		86569A9329C0065600258C0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		86569A9529C0065700258C0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86569A9829C0065700258C0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		86569A9E29C0065700258C0D /* Safe SurferTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Safe SurferTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86569AA229C0065700258C0D /* Safe_SurferTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safe_SurferTests.swift; sourceTree = "<group>"; };
+		86569AA829C0065700258C0D /* Safe SurferUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Safe SurferUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86569AAC29C0065700258C0D /* Safe_SurferUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safe_SurferUITests.swift; sourceTree = "<group>"; };
+		86569AAE29C0065700258C0D /* Safe_SurferUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safe_SurferUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86569A8B29C0065600258C0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86569A9B29C0065700258C0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86569AA529C0065700258C0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86569A8529C0065600258C0D = {
+			isa = PBXGroup;
+			children = (
+				86569A9029C0065600258C0D /* Safe Surfer */,
+				86569AA129C0065700258C0D /* Safe SurferTests */,
+				86569AAB29C0065700258C0D /* Safe SurferUITests */,
+				86569A8F29C0065600258C0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86569A8F29C0065600258C0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86569A8E29C0065600258C0D /* Safe Surfer.app */,
+				86569A9E29C0065700258C0D /* Safe SurferTests.xctest */,
+				86569AA829C0065700258C0D /* Safe SurferUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86569A9029C0065600258C0D /* Safe Surfer */ = {
+			isa = PBXGroup;
+			children = (
+				86569A9129C0065600258C0D /* Safe_SurferApp.swift */,
+				86569A9329C0065600258C0D /* ContentView.swift */,
+				86569A9529C0065700258C0D /* Assets.xcassets */,
+				86569A9729C0065700258C0D /* Preview Content */,
+			);
+			path = "Safe Surfer";
+			sourceTree = "<group>";
+		};
+		86569A9729C0065700258C0D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				86569A9829C0065700258C0D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		86569AA129C0065700258C0D /* Safe SurferTests */ = {
+			isa = PBXGroup;
+			children = (
+				86569AA229C0065700258C0D /* Safe_SurferTests.swift */,
+			);
+			path = "Safe SurferTests";
+			sourceTree = "<group>";
+		};
+		86569AAB29C0065700258C0D /* Safe SurferUITests */ = {
+			isa = PBXGroup;
+			children = (
+				86569AAC29C0065700258C0D /* Safe_SurferUITests.swift */,
+				86569AAE29C0065700258C0D /* Safe_SurferUITestsLaunchTests.swift */,
+			);
+			path = "Safe SurferUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86569A8D29C0065600258C0D /* Safe Surfer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86569AB229C0065700258C0D /* Build configuration list for PBXNativeTarget "Safe Surfer" */;
+			buildPhases = (
+				86569A8A29C0065600258C0D /* Sources */,
+				86569A8B29C0065600258C0D /* Frameworks */,
+				86569A8C29C0065600258C0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Safe Surfer";
+			productName = "Safe Surfer";
+			productReference = 86569A8E29C0065600258C0D /* Safe Surfer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86569A9D29C0065700258C0D /* Safe SurferTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86569AB529C0065700258C0D /* Build configuration list for PBXNativeTarget "Safe SurferTests" */;
+			buildPhases = (
+				86569A9A29C0065700258C0D /* Sources */,
+				86569A9B29C0065700258C0D /* Frameworks */,
+				86569A9C29C0065700258C0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86569AA029C0065700258C0D /* PBXTargetDependency */,
+			);
+			name = "Safe SurferTests";
+			productName = "Safe SurferTests";
+			productReference = 86569A9E29C0065700258C0D /* Safe SurferTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		86569AA729C0065700258C0D /* Safe SurferUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86569AB829C0065700258C0D /* Build configuration list for PBXNativeTarget "Safe SurferUITests" */;
+			buildPhases = (
+				86569AA429C0065700258C0D /* Sources */,
+				86569AA529C0065700258C0D /* Frameworks */,
+				86569AA629C0065700258C0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86569AAA29C0065700258C0D /* PBXTargetDependency */,
+			);
+			name = "Safe SurferUITests";
+			productName = "Safe SurferUITests";
+			productReference = 86569AA829C0065700258C0D /* Safe SurferUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86569A8629C0065600258C0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					86569A8D29C0065600258C0D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					86569A9D29C0065700258C0D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 86569A8D29C0065600258C0D;
+					};
+					86569AA729C0065700258C0D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 86569A8D29C0065600258C0D;
+					};
+				};
+			};
+			buildConfigurationList = 86569A8929C0065600258C0D /* Build configuration list for PBXProject "Safe Surfer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86569A8529C0065600258C0D;
+			productRefGroup = 86569A8F29C0065600258C0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86569A8D29C0065600258C0D /* Safe Surfer */,
+				86569A9D29C0065700258C0D /* Safe SurferTests */,
+				86569AA729C0065700258C0D /* Safe SurferUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86569A8C29C0065600258C0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86569A9929C0065700258C0D /* Preview Assets.xcassets in Resources */,
+				86569A9629C0065700258C0D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86569A9C29C0065700258C0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86569AA629C0065700258C0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86569A8A29C0065600258C0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86569A9429C0065600258C0D /* ContentView.swift in Sources */,
+				86569A9229C0065600258C0D /* Safe_SurferApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86569A9A29C0065700258C0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86569AA329C0065700258C0D /* Safe_SurferTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86569AA429C0065700258C0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86569AAF29C0065700258C0D /* Safe_SurferUITestsLaunchTests.swift in Sources */,
+				86569AAD29C0065700258C0D /* Safe_SurferUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86569AA029C0065700258C0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86569A8D29C0065600258C0D /* Safe Surfer */;
+			targetProxy = 86569A9F29C0065700258C0D /* PBXContainerItemProxy */;
+		};
+		86569AAA29C0065700258C0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86569A8D29C0065600258C0D /* Safe Surfer */;
+			targetProxy = 86569AA929C0065700258C0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		86569AB029C0065700258C0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		86569AB129C0065700258C0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86569AB329C0065700258C0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Safe Surfer/Preview Content\"";
+				DEVELOPMENT_TEAM = F6K6BFNLSM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devil.red.Safe-Surfer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86569AB429C0065700258C0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Safe Surfer/Preview Content\"";
+				DEVELOPMENT_TEAM = F6K6BFNLSM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devil.red.Safe-Surfer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		86569AB629C0065700258C0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6K6BFNLSM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devil.red.Safe-SurferTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Safe Surfer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Safe Surfer";
+			};
+			name = Debug;
+		};
+		86569AB729C0065700258C0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6K6BFNLSM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devil.red.Safe-SurferTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Safe Surfer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Safe Surfer";
+			};
+			name = Release;
+		};
+		86569AB929C0065700258C0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6K6BFNLSM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devil.red.Safe-SurferUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Safe Surfer";
+			};
+			name = Debug;
+		};
+		86569ABA29C0065700258C0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6K6BFNLSM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devil.red.Safe-SurferUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Safe Surfer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86569A8929C0065600258C0D /* Build configuration list for PBXProject "Safe Surfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86569AB029C0065700258C0D /* Debug */,
+				86569AB129C0065700258C0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86569AB229C0065700258C0D /* Build configuration list for PBXNativeTarget "Safe Surfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86569AB329C0065700258C0D /* Debug */,
+				86569AB429C0065700258C0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86569AB529C0065700258C0D /* Build configuration list for PBXNativeTarget "Safe SurferTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86569AB629C0065700258C0D /* Debug */,
+				86569AB729C0065700258C0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86569AB829C0065700258C0D /* Build configuration list for PBXNativeTarget "Safe SurferUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86569AB929C0065700258C0D /* Debug */,
+				86569ABA29C0065700258C0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86569A8629C0065600258C0D /* Project object */;
+}
